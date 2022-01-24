@@ -16,13 +16,13 @@
 <body>
     <header>
         <!-- heading title -->
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-                <span class="navbar-brand mb-0 h1 text-uppercase">Dhaka International Convention Center (DICC)</span>
+        <nav class="navbar navbar-light bg-light container py-4">
+            <div>
+                <span class="navbar-brand mb-0 h1 text-uppercase">Dhaka I.Convention Center (DICC)</span>
             </div>
         </nav>
         <!-- heading banner -->
-        <section class="container">
+        <section class="container my-3">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -81,13 +81,27 @@
                 </button>
             </div>
         </section>
+        <!-- toast -->
+        <section class="container">
+            <div class="toast show align-items-center position-absolute top-0 end-0 bg-dark text-white" role="alert"
+                aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        WELLCOME TO DICC <br>
+                        IT is the largest community center in Dhaka.
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
         <section class="container">
             <h1 class="text-center py-5 text-uppercase">Our Packages</h1>
             <!-- our packages card -->
             <div class="card-group py-5 bg-body">
-                <div class="card mx-3 bg">
+                <div class="card mx-3 shadow-none p-2 rounded">
                     <h3 class="card-header">$300 <br>
                         <small>Business fair</small>
                     </h3>
@@ -128,7 +142,7 @@
                         <button class="btn btn-dark " type="button">Choose Plan</button>
                     </div>
                 </div>
-                <div class="card mx-3">
+                <div class="card mx-3 shadow-none p-2 rounded">
                     <h3 class="card-header">$500 <br>
                         <small>wedding basic</small>
                     </h3>
@@ -169,7 +183,7 @@
                         <button class="btn btn-dark " type="button">Choose Plan</button>
                     </div>
                 </div>
-                <div class="card mx-3 rounded" style="margin-top: -52px; background-color: aquamarine;">
+                <div class="card mx-3 shadow-none p-2 rounded" style="margin-top: -52px; background-color: aquamarine;">
                     <h3 class="card-header">$800 <br>
                         <small>Wedding plus</small>
                     </h3>
@@ -213,7 +227,7 @@
                         Hot deals
                     </span>
                 </div>
-                <div class="card mx-3 rounded">
+                <div class="card mx-3 shadow-none p-2 rounded">
                     <h3 class="card-header">$1200 <br>
                         <small>Corporate </small>
                     </h3>
@@ -259,9 +273,10 @@
         </section>
         <!-- Frequently Asked Questions -->
         <section class="container my-5">
-            <h1 class="text-center text-uppercase">Frequently Asked Questions</h1>
-            <div class="grid d-flex align-items-center my-5">
-                <div class="g-col-8" style="width: 552px;">
+            <h1 class="text-center text-uppercase my-5">Frequently Asked Questions</h1>
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-lg-5 gy-3">
+                <div class="col my-4 my-lg-5">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -274,7 +289,8 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p>Event design and event planning work hand in hand to deliver a successful
-                                        event.Events by Knight offer tailor made events. This means we incorporate both
+                                        event.Events by Knight offer tailor made events. This means we incorporate
+                                        both
                                         event design and event planning to create that perfect event.</p>
                                 </div>
                             </div>
@@ -289,8 +305,10 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>The time to plan events varies from a few weeks to years. If your event is small,
-                                        you can probably put it together in a month or two. A good rule of thumb for any
+                                    <p>The time to plan events varies from a few weeks to years. If your event is
+                                        small,
+                                        you can probably put it together in a month or two. A good rule of thumb for
+                                        any
                                         major event, from weddings to a company holiday party, is six months.</p>
                                 </div>
                             </div>
@@ -305,9 +323,11 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Refund/cancellation policies applicable in the following conditions: a) In case,
+                                    <p>Refund/cancellation policies applicable in the following conditions: a) In
+                                        case,
                                         the buyer cancels the order online before the product has been shipped, the
-                                        entire order amount will be refunded. ... Total order amount after deduction of
+                                        entire order amount will be refunded. ... Total order amount after deduction
+                                        of
                                         shipment and handling charges will be refunded.</p>
                                 </div>
                             </div>
@@ -322,18 +342,19 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Refund/cancellation policies applicable in the following conditions: a) In case,
+                                    <p>Refund/cancellation policies applicable in the following conditions: a) In
+                                        case,
                                         the buyer cancels the order online before the product has been shipped, the
-                                        entire order amount will be refunded. ... Total order amount after deduction of
+                                        entire order amount will be refunded. ... Total order amount after deduction
+                                        of
                                         shipment and handling charges will be refunded.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="g-col-4 ms-4">
-                    <img src="images/people.png" alt="" width="350px" height="216px">
+                <div class="col">
+                    <img class="img-fluid  w-100" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
@@ -369,6 +390,7 @@
                 </div>
             </div>
         </section>
+
     </main>
     <footer>
         <section class="container bg-dark text-white d-flex  justify-content-between my-3 rounded-3">
